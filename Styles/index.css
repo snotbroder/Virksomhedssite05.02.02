@@ -26,8 +26,32 @@
   margin: 8px auto;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
-  background-color: #007fb7;
+  background-color: #c24848;
 }
+/*MENU*/
+
+.navbar li {
+  list-style: none;
+}
+.nav-link {
+  text-decoration: none;
+  color: #c24848;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+
+  font-family: "Glory", sans-serif;
+  font-weight: 800;
+  font-size: 1.4rem;
+  margin-top: 1rem;
+}
+
+.nav-link:hover {
+  font-style: italic;
+  text-decoration: none;
+}
+
 /*-------------mobil---------------*/
 @media (max-width: 900px) {
   /*-----------BURGERMENU SETTINGS----------*/
