@@ -60,6 +60,9 @@ footer {
   padding-top: 1rem;
   padding-bottom: 1rem;
 }
+.center {
+  text-align: center;
+}
 
 @media (max-width: 850px) {
   main {
@@ -68,6 +71,16 @@ footer {
     padding-right: 1.5rem;
     margin: auto;
     margin-bottom: 20px;
+  }
+  .mobilehide {
+    display: none;
+  }
+}
+
+@media (min-width: 850px) {
+  .grid1-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
   }
 
   .grid1-1-1 {
@@ -84,4 +97,60 @@ footer {
   .col3 {
     margin: auto;
   }
+}
+
+/* KNAPPER */
+a .CTA1 {
+  height: auto;
+  width: 40%;
+  font-size: 1.5rem;
+  padding: 0.5rem 1rem 0.5rem 1rem;
+  background-color: #3a4454;
+  color: #fee394;
+  border-radius: 4px;
+  font-weight: 800;
+  font-family: "Glory", sans-serif;
+  text-align: center;
+  box-shadow: -4px 2px 11px -1px rgba(0, 0, 0, 0.14);
+  -webkit-box-shadow: -4px 2px 11px -1px rgba(0, 0, 0, 0.14);
+  -moz-box-shadow: -4px 2px 11px -1px rgba(0, 0, 0, 0.14);
+  margin: 1rem;
+  border: solid #3a4454 4px;
+  transition: 0.2s;
+}
+a .CTA1:hover {
+  color: #3a4454;
+  background-color: #fee394;
+  box-shadow: -4px 2px 11px -1px rgba(0, 0, 0, 0.26) inset;
+  -webkit-box-shadow: -4px 2px 11px -1px rgba(0, 0, 0, 0.26) inset;
+  -moz-box-shadow: -4px 2px 11px -1px rgba(0, 0, 0, 0.26) inset;
+  transition: 0.2s;
+}
+
+a .CTA2 {
+  height: auto;
+  width: 40%;
+  font-size: 1.5rem;
+  padding: 0.5rem 1rem 0.5rem 1rem;
+  background-color: #c24848;
+  color: #fee394;
+  border-radius: 4px;
+  font-weight: 800;
+  font-family: "Glory", sans-serif;
+  text-align: center;
+  box-shadow: -4px 2px 11px -1px rgba(0, 0, 0, 0.14);
+  -webkit-box-shadow: -4px 2px 11px -1px rgba(0, 0, 0, 0.14);
+  -moz-box-shadow: -4px 2px 11px -1px rgba(0, 0, 0, 0.14);
+  margin: 1rem;
+  border: solid #c24848 4px;
+  transition: 0.2s;
+}
+
+a .CTA2:hover {
+  color: #c24848;
+  background-color: #fee394;
+  box-shadow: -4px 2px 11px -1px rgba(0, 0, 0, 0.26) inset;
+  -webkit-box-shadow: -4px 2px 11px -1px rgba(0, 0, 0, 0.26) inset;
+  -moz-box-shadow: -4px 2px 11px -1px rgba(0, 0, 0, 0.26) inset;
+  transition: 0.2s;
 }
