@@ -26,7 +26,6 @@ h2 {
 
 h3 {
   font-family: "Glory", sans-serif;
-  font-style: italic;
   font-weight: 800;
   color: #c24848;
   font-size: 1.4rem;
@@ -69,5 +68,20 @@ footer {
     padding-right: 1.5rem;
     margin: auto;
     margin-bottom: 20px;
+  }
+
+  .grid1-1-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .col1 {
+    order: -1;
+    margin: auto;
+  }
+  .col2 {
+    margin: auto;
+  }
+  .col3 {
+    margin: auto;
   }
 }
