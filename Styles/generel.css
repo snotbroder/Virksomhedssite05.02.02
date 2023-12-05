@@ -60,6 +60,9 @@ footer {
   padding-top: 1rem;
   padding-bottom: 1rem;
 }
+.center {
+  text-align: center;
+}
 
 @media (max-width: 850px) {
   main {
@@ -69,7 +72,12 @@ footer {
     margin: auto;
     margin-bottom: 20px;
   }
+  .mobilehide {
+    display: none;
+  }
+}
 
+@media (min-width: 850px) {
   .grid1-1-1 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
