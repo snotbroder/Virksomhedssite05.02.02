@@ -115,8 +115,16 @@ a .CTA1 {
   -webkit-box-shadow: -4px 2px 11px -1px rgba(0, 0, 0, 0.14);
   -moz-box-shadow: -4px 2px 11px -1px rgba(0, 0, 0, 0.14);
   margin: 1rem;
+  border: solid #3a4454 4px;
+  transition: 0.2s;
 }
 a .CTA1:hover {
+  color: #3a4454;
+  background-color: #fee394;
+  box-shadow: -4px 2px 11px -1px rgba(0, 0, 0, 0.26) inset;
+  -webkit-box-shadow: -4px 2px 11px -1px rgba(0, 0, 0, 0.26) inset;
+  -moz-box-shadow: -4px 2px 11px -1px rgba(0, 0, 0, 0.26) inset;
+  transition: 0.2s;
 }
 
 a .CTA2 {
@@ -134,4 +142,15 @@ a .CTA2 {
   -webkit-box-shadow: -4px 2px 11px -1px rgba(0, 0, 0, 0.14);
   -moz-box-shadow: -4px 2px 11px -1px rgba(0, 0, 0, 0.14);
   margin: 1rem;
+  border: solid #c24848 4px;
+  transition: 0.2s;
+}
+
+a .CTA2:hover {
+  color: #c24848;
+  background-color: #fee394;
+  box-shadow: -4px 2px 11px -1px rgba(0, 0, 0, 0.26) inset;
+  -webkit-box-shadow: -4px 2px 11px -1px rgba(0, 0, 0, 0.26) inset;
+  -moz-box-shadow: -4px 2px 11px -1px rgba(0, 0, 0, 0.26) inset;
+  transition: 0.2s;
 }
