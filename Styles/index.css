@@ -40,16 +40,18 @@
   padding-right: 20px;
   padding-top: 10px;
   padding-bottom: 10px;
-
   font-family: "Glory", sans-serif;
   font-weight: 800;
   font-size: 1.4rem;
   margin-top: 1rem;
+  transition: 0.3s;
 }
 
 .nav-link:hover {
-  font-style: italic;
   text-decoration: none;
+  color: #a51919;
+  transition: 0.3s;
+  font-size: 1.45rem;
 }
 
 /*-------------mobil---------------*/
