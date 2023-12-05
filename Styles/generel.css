@@ -1,0 +1,43 @@
+img {
+  height: auto;
+  width: 100%;
+  object-fit: cover;
+  align-self: auto;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  font-family: "Notable", sans-serif;
+  color: #3a4454;
+  font-size: 3rem;
+  margin-top: 0.5rem;
+}
+h2 {
+  font-family: "Inknut Antiqua", serif;
+  color: #c24848;
+  font-size: 1.8rem;
+  margin-top: 1rem;
+}
+
+h3 {
+  font-family: "Glory", sans-serif;
+  font-style: italic;
+  font-weight: 800;
+  color: #c24848;
+  font-size: 1.4rem;
+  margin-top: 1rem;
+}
+
+p {
+  font-family: "Glory", sans-serif;
+  font-weight: 400;
+  color: #3a4454;
+  line-height: 1.5rem;
+  font-size: 1rem;
+  margin-top: 2rem;
+}
