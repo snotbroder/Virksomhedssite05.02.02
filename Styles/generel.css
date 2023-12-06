@@ -346,3 +346,22 @@ h3 {
     left: 0;
   }
 }
+
+/*FIXED NOTE AT THE BOTTOM OF THE PAGE*/
+.contact {
+  font-family: "Glory", sans-serif;
+  color: #fee394;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  background-color: #c24848;
+  border-radius: 5px;
+  margin: 10px;
+  font-size: 100%;
+}
+.contact a {
+  color: #fee394;
+  text-decoration: underline;
+  font-size: 120%;
+}
