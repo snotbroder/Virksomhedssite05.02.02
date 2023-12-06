@@ -154,3 +154,15 @@ a .CTA2:hover {
   -moz-box-shadow: -4px 2px 11px -1px rgba(0, 0, 0, 0.26) inset;
   transition: 0.2s;
 }
+
+/*Footer/ikoner, style*/
+#hours,
+#plads,
+#call {
+  position: absolute;
+  left: 65%;
+  width: 2%;
+}
+h3 {
+  margin: 2rem;
+}

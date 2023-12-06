@@ -29,6 +29,7 @@ h5 {
   left: 44%;
   width: 2%;
 }
+/*
 #hours,
 #plads,
 #call {
@@ -38,4 +39,11 @@ h5 {
 }
 h3 {
   margin: 2rem;
+}*/
+p {
+  word-wrap: break-word;
+}
+.text {
+  display: grid;
+  place-items: center;
 }
