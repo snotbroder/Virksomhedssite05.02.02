@@ -1,3 +1,49 @@
-body {
-  background-color: #fee394;
+ul {
+  font-family: "Glory", sans-serif;
+  font-weight: 400;
+  color: #3a4454;
+  line-height: 1.5rem;
+  font-size: 1.1rem;
+  margin-top: 2rem;
+}
+.parent_1-1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.grid_1-1 {
+  margin-top: 2rem;
+}
+
+h5 {
+  font-family: "Glory", sans-serif;
+  font-weight: 600;
+  color: #3a4454;
+  line-height: 1.5rem;
+  font-size: 1.1rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+.tele {
+  position: absolute;
+  left: 44%;
+  width: 2%;
+}
+/*
+#hours,
+#plads,
+#call {
+  position: absolute;
+  left: 65%;
+  width: 2%;
+}
+h3 {
+  margin: 2rem;
+}*/
+p {
+  word-wrap: break-word;
+}
+.text {
+  display: grid;
+  place-items: center;
 }
