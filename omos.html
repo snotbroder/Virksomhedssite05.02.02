@@ -66,6 +66,49 @@
         </a>
         <section id="kontakt">
             <p>heey</p>
+            <h2>Kontakt os</h2>
+            <p>
+                Udfyld kontaktformularen for at kontakte os. Vi glæder os til at
+                høre fra dig.
+            </p>
+            </header>
+
+            <form name="Dragon grillbar kontaktformular" action="indsendt.html" netlify>
+                <!-- Formular-indhold -->
+                <div class="form-felt">
+                    <label for="fnavn">
+                        <p>Navn*</p>
+                    </label>
+                    <input required id="fnavn" class="end" placeholder="eks. Jens" />
+
+                    <label for="enavn">
+                        <p>Efternavn</p>
+                    </label>
+                    <input id="enavn" class="end" placeholder="eks. Jensen" />
+
+                    <label for="email">
+                        <p>Email</p>
+                    </label>
+                    <input id="email" type="email" class="end" placeholder="din@email.dk" />
+
+                    <p>Årsag* </p><label for="henvendelse"><select required id="henvendelse" name="Vælg stilling">
+                            <option value="underviser">Vælg</option>
+                            <option value="studerende">Kvalitet</option>
+                            <option value="studerende">Leveringstid</option>
+                            <option value="studerende">Catering</option>
+                            <option value="studerende">Allergener</option>
+                            <option value="studerende">Andet</option>
+                        </select> </label>
+                    <label for="besked">
+                        <p>Besked*</p>
+                    </label>
+                    <textarea required id="besked" placeholder="Her kan du skrive tekst..." name="textarea"></textarea>
+
+
+                    <button type="submit" for="submit">Send form</button>
+                    <div></div>
+                </div>
+            </form>
         </section>
     </main>
     <footer>
