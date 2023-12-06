@@ -53,17 +53,12 @@ main {
   margin-bottom: 20px;
 }
 
-footer {
-  display: block;
-  background-color: #d1bb7c;
-  height: 200px;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-}
 .center {
   text-align: center;
+  margin: auto;
 }
 
+/* Mobil */
 @media (max-width: 850px) {
   main {
     max-width: 1200px;
@@ -87,6 +82,12 @@ footer {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
   }
+
+  .grid3-1 {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+  }
+
   .col1 {
     order: -1;
     margin: auto;
@@ -100,9 +101,14 @@ footer {
 }
 
 /* KNAPPER */
+a {
+  text-decoration: none;
+}
+
 a .CTA1 {
+  display: inline-block;
   height: auto;
-  width: 40%;
+  max-width: 100%;
   font-size: 1.5rem;
   padding: 0.5rem 1rem 0.5rem 1rem;
   background-color: #3a4454;
@@ -128,8 +134,9 @@ a .CTA1:hover {
 }
 
 a .CTA2 {
+  display: inline-block;
   height: auto;
-  width: 40%;
+  max-width: 100%;
   font-size: 1.5rem;
   padding: 0.5rem 1rem 0.5rem 1rem;
   background-color: #c24848;
@@ -155,20 +162,68 @@ a .CTA2:hover {
   transition: 0.2s;
 }
 
+.baggrundtexture {
+  z-index: -5;
+  width: 100%;
+  height: auto;
+  position: absolute;
+  top: 1%;
+}
+
 /*Footer/ikoner, style*/
+footer {
+  display: block;
+  background-color: #d1bb7c;
+  height: auto;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  width: 100%;
+}
+
+.footertekst {
+  font-family: "Glory", sans-serif;
+  font-weight: 800;
+  color: #c24848;
+  font-size: 1.4rem;
+  margin-left: 1rem;
+  margin-bottom: 2rem;
+}
+
+.copyright {
+  text-align: center;
+  font-family: "Notable", sans-serif;
+}
+
 #hours,
 #plads,
 #call {
-  position: absolute;
-  left: 65%;
-  width: 2%;
+  width: 30%;
+  margin: auto;
+  margin-bottom: 2rem;
 }
+
 h3 {
   margin: 2rem;
 }
 
-/*MENU*/
+.logofooter {
+  width: auto;
+}
 
+.footerbaggrund {
+  z-index: -10;
+  width: 400px;
+  height: auto;
+  position: absolute;
+  top: 80%;
+}
+
+.footerlink {
+  margin-bottom: 3rem;
+  margin-top: 2rem;
+}
+
+/*MENU*/
 #navbar {
   min-height: 70px;
   display: flex;
