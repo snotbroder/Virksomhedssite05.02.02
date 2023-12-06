@@ -169,23 +169,23 @@ h3 {
 
 /*MENU*/
 
-.navbar {
+#navbar {
   min-height: 70px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 10px;
 }
-.nav-menu {
+#nav-menu {
   display: flex;
   justify-content: space-around;
   align-items: center;
   gap: 20px;
 }
-.nav-branding {
+#nav-branding {
   width: 21ch;
 }
-.hamburger {
+#hamburger {
   display: none;
   cursor: pointer;
   padding: 2ch;
@@ -201,7 +201,7 @@ h3 {
 }
 /*MENU*/
 
-.navbar li {
+#navbar li {
   list-style: none;
 }
 .nav-link {
@@ -228,19 +228,19 @@ h3 {
 /*-------------mobil---------------*/
 @media (max-width: 900px) {
   /*-----------BURGERMENU SETTINGS----------*/
-  .hamburger {
+  #hamburger {
     display: block;
   }
-  .hamburger.active .bar:nth-child(2) {
+  #hamburger.active .bar:nth-child(2) {
     opacity: 0;
   }
-  .hamburger.active .bar:nth-child(1) {
+  #hamburger.active .bar:nth-child(1) {
     transform: translateY(11px) rotate(45deg);
   }
-  .hamburger.active .bar:nth-child(3) {
+  #hamburger.active .bar:nth-child(3) {
     transform: translateY(-11px) rotate(-45deg);
   }
-  .nav-menu {
+  #nav-menu {
     position: absolute;
     left: -500%;
     height: 72%;
@@ -258,7 +258,7 @@ h3 {
   .nav-item {
     margin: 16px 0;
   }
-  .nav-menu.active {
+  #nav-menu.active {
     left: 0;
   }
 }
