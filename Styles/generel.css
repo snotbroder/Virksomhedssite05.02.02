@@ -191,22 +191,6 @@ a .CTA2:hover {
 a .CTA2:active {
   color: red;
 }
-.baggrundtexture_container {
-  position: absolute;
-  z-index: -5;
-  width: 100%;
-  height: auto;
-  top: 10%;
-  left: 50%;
-}
-
-.baggrundtexture {
-  background-image: url(/Images/hvid_drage.webp);
-  background-size: cover;
-  aspect-ratio: 1/1;
-  width: 100%;
-  height: auto;
-}
 
 /*Footer/ikoner, style*/
 footer {
