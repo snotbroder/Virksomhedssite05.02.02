@@ -2,6 +2,7 @@ form {
   padding: 2rem;
   background: #c24848;
   border-radius: 8px;
+  margin-bottom: 3rem;
 }
 
 .end {
@@ -79,10 +80,10 @@ button:hover {
 }
 
 button:active {
-  background-color: #5100caa8;
   color: red;
 }
 form p {
   color: #fee394;
   font-size: 1.5rem;
+  font-weight: 800;
 }
