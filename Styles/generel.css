@@ -53,15 +53,9 @@ main {
   margin-bottom: 20px;
 }
 
-footer {
-  display: block;
-  background-color: #d1bb7c;
-  height: 200px;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-}
 .center {
   text-align: center;
+  margin: auto;
 }
 
 @media (max-width: 850px) {
@@ -100,7 +94,12 @@ footer {
 }
 
 /* KNAPPER */
+a {
+  text-decoration: none;
+}
+
 a .CTA1 {
+  display: inline-block;
   height: auto;
   width: 40%;
   font-size: 1.5rem;
@@ -128,6 +127,7 @@ a .CTA1:hover {
 }
 
 a .CTA2 {
+  display: inline-block;
   height: auto;
   width: 40%;
   font-size: 1.5rem;
@@ -155,7 +155,23 @@ a .CTA2:hover {
   transition: 0.2s;
 }
 
+.baggrundtexture {
+  z-index: -5;
+  width: 100%;
+  height: auto;
+  position: absolute;
+  top: 1%;
+}
+
 /*Footer/ikoner, style*/
+footer {
+  display: block;
+  background-color: #d1bb7c;
+  height: auto;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
 #hours,
 #plads,
 #call {
@@ -163,6 +179,19 @@ a .CTA2:hover {
   left: 65%;
   width: 2%;
 }
+
 h3 {
   margin: 2rem;
+}
+
+.logofooter {
+  width: auto;
+}
+
+.footerbaggrund {
+  z-index: -10;
+  width: 400px;
+  height: auto;
+  position: absolute;
+  top: 80%;
 }
