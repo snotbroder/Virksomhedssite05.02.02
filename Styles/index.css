@@ -12,7 +12,7 @@
   gap: 20px;
 }
 .nav-branding {
-  width: 20ch;
+  width: 21ch;
 }
 .hamburger {
   display: none;
@@ -72,10 +72,13 @@
   .nav-menu {
     position: absolute;
     left: -500%;
-    top: 14ch;
+    height: 72%;
+    top: 20ch;
     gap: 0;
     flex-direction: column;
-    background-color: #ffffff;
+    background-image: url(/images/dragon.svg);
+    background-size: cover;
+    background-color: #d1bb7c;
     width: 100%;
     text-align: center;
     transition: 0.3s;
