@@ -38,7 +38,8 @@ p {
   color: #3a4454;
   line-height: 1.5rem;
   font-size: 1.1rem;
-  margin-top: 2rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 
 body {
@@ -99,16 +100,24 @@ main {
   .grid1-1 {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    gap: 1rem;
   }
 
   .grid1-1-1 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    gap: 1rem;
   }
 
   .grid3-1 {
     display: grid;
     grid-template-columns: 3fr 1fr;
+    gap: 1rem;
+  }
+
+  .flex1-1 {
+    display: flex;
+    justify-content: space-between;
   }
 
   .col1 {
@@ -143,7 +152,8 @@ a .CTA1 {
   box-shadow: -4px 2px 11px -1px rgba(0, 0, 0, 0.14);
   -webkit-box-shadow: -4px 2px 11px -1px rgba(0, 0, 0, 0.14);
   -moz-box-shadow: -4px 2px 11px -1px rgba(0, 0, 0, 0.14);
-  margin: 1rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
   border: solid #3a4454 4px;
   transition: 0.2s;
 }
@@ -175,7 +185,8 @@ a .CTA2 {
   box-shadow: -4px 2px 11px -1px rgba(0, 0, 0, 0.14);
   -webkit-box-shadow: -4px 2px 11px -1px rgba(0, 0, 0, 0.14);
   -moz-box-shadow: -4px 2px 11px -1px rgba(0, 0, 0, 0.14);
-  margin: 1rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
   border: solid #c24848 4px;
   transition: 0.2s;
 }
@@ -200,6 +211,7 @@ footer {
   padding-top: 1rem;
   padding-bottom: 1rem;
   width: 100%;
+  margin-top: 8rem;
 }
 
 .footertekst {
@@ -216,16 +228,24 @@ footer {
   font-family: "Notable", sans-serif;
 }
 
-#hours,
-#plads,
-#call {
-  width: 30%;
-  margin: auto;
+.footerlinks {
+  width: 100%;
+
+  font-family: "Glory", sans-serif;
+  font-weight: 800;
+  color: #c24848;
+  font-size: 1.4rem;
+
   margin-bottom: 2rem;
 }
 
-h3 {
-  margin: 2rem;
+#hours,
+#plads,
+#call,
+#smiley {
+  width: 30%;
+  margin: auto;
+  margin-bottom: 2rem;
 }
 
 .logofooter {
@@ -241,8 +261,8 @@ h3 {
 }
 
 .footerlink {
-  margin-bottom: 3rem;
-  margin-top: 2rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 
 /*MENU*/
@@ -357,4 +377,14 @@ h3 {
   color: #fee394;
   text-decoration: underline;
   font-size: 120%;
+}
+
+footer a {
+  color: #c24848;
+  transition: 0.2s;
+}
+
+footer a:hover {
+  color: red;
+  transition: 0.2s;
 }
