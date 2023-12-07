@@ -115,6 +115,11 @@ main {
     gap: 1rem;
   }
 
+  .flex1-1 {
+    display: flex;
+    justify-content: space-between;
+  }
+
   .col1 {
     order: -1;
     margin: auto;
@@ -147,7 +152,8 @@ a .CTA1 {
   box-shadow: -4px 2px 11px -1px rgba(0, 0, 0, 0.14);
   -webkit-box-shadow: -4px 2px 11px -1px rgba(0, 0, 0, 0.14);
   -moz-box-shadow: -4px 2px 11px -1px rgba(0, 0, 0, 0.14);
-  margin: 1rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
   border: solid #3a4454 4px;
   transition: 0.2s;
 }
@@ -179,7 +185,8 @@ a .CTA2 {
   box-shadow: -4px 2px 11px -1px rgba(0, 0, 0, 0.14);
   -webkit-box-shadow: -4px 2px 11px -1px rgba(0, 0, 0, 0.14);
   -moz-box-shadow: -4px 2px 11px -1px rgba(0, 0, 0, 0.14);
-  margin: 1rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
   border: solid #c24848 4px;
   transition: 0.2s;
 }
@@ -221,6 +228,17 @@ footer {
   font-family: "Notable", sans-serif;
 }
 
+.footerlinks {
+  width: 100%;
+
+  font-family: "Glory", sans-serif;
+  font-weight: 800;
+  color: #c24848;
+  font-size: 1.4rem;
+
+  margin-bottom: 2rem;
+}
+
 #hours,
 #plads,
 #call,
@@ -243,8 +261,8 @@ footer {
 }
 
 .footerlink {
-  margin-bottom: 3rem;
-  margin-top: 2rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 
 /*MENU*/
@@ -359,4 +377,14 @@ footer {
   color: #fee394;
   text-decoration: underline;
   font-size: 120%;
+}
+
+footer a {
+  color: #c24848;
+  transition: 0.2s;
+}
+
+footer a:hover {
+  color: red;
+  transition: 0.2s;
 }
