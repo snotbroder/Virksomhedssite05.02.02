@@ -104,3 +104,26 @@ form p {
   width: 100%;
   height: auto;
 }
+
+.flex {
+  display: flex;
+  justify-content: space-around;
+}
+
+.selected {
+  color: red;
+  text-decoration: underline;
+}
+
+#menu1,
+#menu2,
+#menu3,
+#menu4 {
+  border: red solid 2px;
+  min-height: 50rem;
+  text-align: center;
+  font-family: "Notable", sans-serif;
+  color: #3a4454;
+  font-size: 3rem;
+  margin-top: 0.5rem;
+}
