@@ -99,16 +99,19 @@ main {
   .grid1-1 {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    gap: 1rem;
   }
 
   .grid1-1-1 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    gap: 1rem;
   }
 
   .grid3-1 {
     display: grid;
     grid-template-columns: 3fr 1fr;
+    gap: 1rem;
   }
 
   .col1 {
@@ -222,10 +225,6 @@ footer {
   width: 30%;
   margin: auto;
   margin-bottom: 2rem;
-}
-
-h3 {
-  margin: 2rem;
 }
 
 .logofooter {
