@@ -19,6 +19,7 @@
 </head>
 
 <body>
+    <div id="top"></div>
     <header>
         <nav id="navbar">
             <a href="index.html"><img id="nav-branding" src="images/logowithtext.png" alt="logo"></a>
@@ -34,6 +35,7 @@
             </div>
         </nav>
     </header>
+
     <main>
         <h1>Hvem er vi?</h1>
         <h2>H2</h2>
@@ -59,11 +61,48 @@
         <a href="">
             <div class="CTA1">CTA-BUTTON-1</div>
         </a>
-        <img class="baggrundtexture" src="Images/hvid_drage.webp" alt="hvid drage">
+        <div class="baggrundtexture_container">
+            <div class="baggrundtexture"></div>
+        </div>
         <br>
         <a href="">
             <div class="CTA2">CTA-BUTTON-2 </div>
         </a>
+        <div class="flex">
+            <a href="#section" id="menu1Knap" onclick="showMenu1()">
+                <div class="">
+                </div>KNAP1
+            </a>
+            <a href="#section" id="menu2Knap" onclick="showMenu2()">
+                <div class="">
+                </div>KNAP2
+            </a>
+            <a href="#section" id="menu3Knap" onclick="showMenu3()">
+                <div class="">
+                </div>KNAP3
+            </a>
+            <a href="#section" id="menu4Knap" onclick="showMenu4()">
+                <div class="">
+                </div>KNAP4
+            </a>
+        </div>
+        <section id="menu1">
+            MENU 1
+            <p>kinesiske retter</p>
+        </section>
+        <section id="menu2">
+            MENU 2
+            <p>sushi</p>
+        </section>
+        <section id="menu3">
+            MENU 3
+            <p>kiosk</p>
+        </section>
+        <section id="menu4">
+            MENU 4
+            <p>drikkevarer</p>
+        </section>
+
         <section id="kontakt">
             <p>heey</p>
             <h2>Kontakt os</h2>
@@ -72,9 +111,8 @@
                 høre fra dig.
             </p>
             </header>
-
-            <form name="Dragon grillbar kontaktformular" action="indsendt.html" netlify>
-                <!-- Formular-indhold -->
+            <!-- Formular-indhold -->
+            <form name="Dragon grillbar kontaktformular" action="indsendt.html#kontakt" netlify>
                 <div class="form-felt">
                     <label for="fnavn">
                         <p>Navn*</p>
@@ -104,15 +142,19 @@
                     </label>
                     <textarea required id="besked" placeholder="Her kan du skrive tekst..." name="textarea"></textarea>
 
+                    <div class="flex">
+                        <button type="submit" for="submit">Send form</button>
+                    </div>
 
-                    <button type="submit" for="submit">Send form</button>
-                    <div></div>
                 </div>
             </form>
         </section>
     </main>
+    <!-- Til toppen -->
+    <div class="tiltop desktophide"><a href="omos.html#top">Til toppen</a></div>
+
     <footer>
-        <img class="footerbaggrund" src="Images/hvid_drage.webp" alt="hvid drage">
+        <!-- <img class="footerbaggrund" src="Images/hvid_drage.webp" alt="hvid drage"> -->
         <div class="grid1-1-1">
             <div class="col1 mobilehide">
                 <div class="grid1-1">
@@ -169,7 +211,7 @@
                 <div class="grid3-1">
                     <div class="col2"></div>
                     <div class="col1 footertekst">
-                        <a href="#"> Fødevarestyrelsen</a>
+                        <a target="_blank" href="https://www.findsmiley.dk/113840"> Fødevarestyrelsen</a>
                     </div>
                 </div>
 
@@ -181,6 +223,7 @@
         <div class="copyright">Dragon Grill Express - 2023</div>
     </footer>
     <script src="Script/script.js"></script>
+    <script src="Script/test.js"></script>
 </body>
 
 </html>

@@ -2,6 +2,7 @@ form {
   padding: 2rem;
   background: #c24848;
   border-radius: 8px;
+  margin-bottom: 3rem;
 }
 
 .end {
@@ -79,10 +80,50 @@ button:hover {
 }
 
 button:active {
-  background-color: #5100caa8;
   color: red;
 }
 form p {
   color: #fee394;
   font-size: 1.5rem;
+  font-weight: 800;
+}
+
+.baggrundtexture_container {
+  position: absolute;
+  z-index: -5;
+  width: 100%;
+  height: auto;
+  top: 10%;
+  left: 50%;
+}
+
+.baggrundtexture {
+  background-image: url(/Images/hvid_drage.webp);
+  background-size: cover;
+  aspect-ratio: 1/1;
+  width: 100%;
+  height: auto;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-around;
+}
+
+.selected {
+  color: red;
+  text-decoration: underline;
+}
+
+#menu1,
+#menu2,
+#menu3,
+#menu4 {
+  border: red solid 2px;
+  min-height: 50rem;
+  text-align: center;
+  font-family: "Notable", sans-serif;
+  color: #3a4454;
+  font-size: 3rem;
+  margin-top: 0.5rem;
 }

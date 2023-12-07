@@ -59,7 +59,7 @@ main {
 }
 
 /* Mobil */
-@media (max-width: 850px) {
+@media (max-width: 900px) {
   main {
     max-width: 1200px;
     padding-left: 1.5rem;
@@ -70,9 +70,32 @@ main {
   .mobilehide {
     display: none;
   }
+
+  .tiltop {
+    position: fixed;
+    top: 95%;
+    right: 0%;
+    height: auto;
+    width: auto;
+    background-color: #3a4454;
+    padding: 2%;
+    text-align: center;
+    border-radius: 9px 0px 0px 0px;
+    -webkit-border-radius: 9px 0px 0px 0px;
+    -moz-border-radius: 9px 0px 0px 0px;
+  }
 }
 
-@media (min-width: 850px) {
+.tiltop a {
+  color: red;
+  font-family: "Glory", sans-serif;
+  font-size: 1.8rem;
+  font-weight: 800;
+}
+@media (min-width: 900px) {
+  .desktophide {
+    display: none;
+  }
   .grid1-1 {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -133,6 +156,10 @@ a .CTA1:hover {
   transition: 0.2s;
 }
 
+a .CTA1:active {
+  color: red;
+}
+
 a .CTA2 {
   display: inline-block;
   height: auto;
@@ -161,13 +188,8 @@ a .CTA2:hover {
   -moz-box-shadow: -4px 2px 11px -1px rgba(0, 0, 0, 0.26) inset;
   transition: 0.2s;
 }
-
-.baggrundtexture {
-  z-index: -5;
-  width: 100%;
-  height: auto;
-  position: absolute;
-  top: 1%;
+a .CTA2:active {
+  color: red;
 }
 
 /*Footer/ikoner, style*/
@@ -214,7 +236,7 @@ h3 {
   z-index: -10;
   width: 400px;
   height: auto;
-  position: absolute;
+  position: fixed;
   top: 80%;
 }
 
