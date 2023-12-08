@@ -3,17 +3,20 @@
 #menu2,
 #menu3,
 #menu4 {
-  border: #c24848 solid 2px;
-  min-height: 50rem;
-  text-align: center;
+  border: #c24848 2px;
   font-family: "Notable", sans-serif;
   color: #3a4454;
-  font-size: 3rem;
+  font-size: 2.5rem;
   margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
 }
 .flex {
   display: flex;
   justify-content: space-around;
+}
+
+ul {
+  list-style-type: none;
 }
 
 /* background */
@@ -32,4 +35,37 @@
   aspect-ratio: 1/1;
   width: 100%;
   height: auto;
+}
+
+.itempris {
+  font-family: "Glory", sans-serif;
+  font-weight: 400;
+  color: #3a4454;
+  line-height: 1.5rem;
+  font-size: 1.1rem;
+  margin-top: 2rem;
+  margin-left: auto;
+}
+
+.flexitem1 {
+  display: flex;
+}
+@media (min-width: 700px) {
+  .mr {
+    margin-right: 8rem;
+  }
+
+  .menucard {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 100px;
+  }
+
+  .menucardflex1 {
+    grid-column: 1/2;
+  }
+
+  .menucardflex2 {
+    grid-column: 1/2;
+  }
 }
