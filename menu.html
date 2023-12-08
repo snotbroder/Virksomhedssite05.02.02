@@ -35,35 +35,123 @@
         </nav>
     </header>
 
-    <h1>H1</h1>
-    <h2>H2</h2>
-    <h3>H3</h3>
-    <p>Paragraph Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>Modi, rerum. Deserunt ratione aperiam
-        perferendis laudantium, blanditiis iste quibusdam rerum voluptate!</p>
-
     <main>
         <!-- insp bilder, 2st-->
 
-        <!-- menu links lista, checka kategorier i menyn!!!!!! -->
-        <ul class="madmanu">
-            <li class="madmenu-item"><a href="sushi.html" class="mad-link">
-                    <h2>SUSHI</h2>
-                </a></li>
-            <li class="madmenu-item"><a href="dragondinner.html" class="mad-link">
-                    <h2>DRAGON DINNER</h2>
-                </a></li>
-            <li class="madmenu-item"><a href="kinesisk.html" class="mad-link">
-                    <h2>KINESISK</h2>
-                </a></li>
-            <li class="madmenu-item"><a href="drikkevarer.html" class="mad-link">
-                    <h2>DRIKKEVARER</h2>
-                </a></li>
-        </ul>
+        <!-- background texture -->
+        <div class="baggrundtexture_container">
+            <div class="baggrundtexture"></div>
+        </div>
+
+
+        <!-- menu knappar & sidor -->
+        <div class="flex">
+            <a href="#section" id="menu1Knap" onclick="showMenu1()">
+                <div class="CTA2">Kinesiske retter
+                </div>
+            </a>
+            <a href="#section" id="menu2Knap" onclick="showMenu2()">
+                <div class="CTA2"> Sushi
+                </div>
+            </a>
+            <a href="#section" id="menu3Knap" onclick="showMenu3()">
+                <div class="CTA2"> Kiosk
+                </div>
+            </a>
+            <a href="#section" id="menu4Knap" onclick="showMenu4()">
+                <div class="CTA2"> Drikkevarer
+                </div>
+            </a>
+        </div>
+        <section id="menu1">
+            Kinesiske retter
+            <p>kinesiske retter</p>
+        </section>
+        <section id="menu2">
+            Sushi
+            <p>sushi</p>
+        </section>
+        <section id="menu3">
+            Kiosk
+            <p>kiosk</p>
+        </section>
+        <section id="menu4">
+            Drikkevarer
+            <p>drikkevarer</p>
+        </section>
+
     </main>
     <footer>
-        <h3>FOOTER</h3>
+        <img class="footerbaggrund" src="Images/hvid_drage.webp" alt="hvid drage">
+        <div class="grid1-1-1">
+            <div class="col1 mobilehide">
+                <div class="grid1-1">
+                    <div class="col1 footerlink">
+                        <a href="index.html" class="nav-link">
+                            FORSIDE
+                        </a>
+                    </div>
+                    <div class="col2 footerlink">
+                        <a href="omos.html" class="nav-link">OM OS</a>
+                    </div>
+                </div>
+                <div class="grid1-1">
+                    <div class="col1 footerlink">
+                        <a href="catering.html" class="nav-link">CATERING</a>
+                    </div>
+                    <div class="col2 footerlink">
+                        <a href="omos.html#kontakt" class="nav-link footerlink">KONTAKT</a>
+                    </div>
+                </div>
+                <div class="grid1-1">
+                    <div class="col1 footerlink">
+                        <a href="menu.html" class="nav-link">MENU</a>
+                    </div>
+                    <div class="col2 footerlink">
+
+                    </div>
+                </div>
+
+            </div>
+            <div class="col2 center">
+                <a href="index.html"><img src="Images/redlogo.png" alt="LOGO" class="logofooter"></a>
+            </div>
+
+            <div class="col3 ">
+                <div class="grid3-1">
+                    <img class="col2 mobilehide" id="hours" src="icons/openinghours_icon.svg" alt="öppettider ikon">
+                    <div class="col1 footertekst">
+                        Man, Ons - Søn: 15:30 - 21:30
+                    </div>
+                </div>
+                <div class="grid3-1">
+                    <img class="col2 mobilehide" id="plads" src="icons/plads_ikon.svg" alt="plads">
+                    <div class="col1 footertekst">
+                        Amagerbrogade 186, 2300 København S
+                    </div>
+                </div>
+                <div class="grid3-1">
+                    <img class="col2 mobilehide" id="call" src="icons/call_icon.svg" alt="telefon ikon">
+                    <div class="col1 footertekst">
+                        +45 32 58 59 70
+                    </div>
+                </div>
+                <div class="grid3-1">
+                    <div class="col2"></div>
+                    <div class="col1 footertekst">
+                        <a href="https://www.findsmiley.dk/113840"> Fødevarestyrelsen</a>
+                    </div>
+                </div>
+
+
+
+            </div>
+
+        </div>
+        <div class="copyright">Dragon Grill Express - 2023</div>
     </footer>
     <script src="Script/script.js"></script>
+    <script src="Script/test.js"></script>
 </body>
 
 </html>

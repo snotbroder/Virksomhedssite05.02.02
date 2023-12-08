@@ -88,19 +88,41 @@ form p {
   font-weight: 800;
 }
 
-.baggrundtexture_container {
+.baggrundtexture_container1 {
   position: absolute;
   z-index: -5;
-  width: 100%;
-  height: auto;
+  width: 40%;
   top: 10%;
   left: 50%;
+  aspect-ratio: 1/1;
 }
 
-.baggrundtexture {
+.baggrundtexture1 {
   background-image: url(/Images/hvid_drage.webp);
   background-size: cover;
-  aspect-ratio: 1/1;
+  height: 100%;
   width: 100%;
-  height: auto;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.selected {
+  color: red;
+  text-decoration: underline;
+}
+
+#menu1,
+#menu2,
+#menu3,
+#menu4 {
+  border: red solid 2px;
+  min-height: 50rem;
+  text-align: center;
+  font-family: "Notable", sans-serif;
+  color: #3a4454;
+  font-size: 3rem;
+  margin-top: 0.5rem;
 }

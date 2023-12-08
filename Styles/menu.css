@@ -1,0 +1,35 @@
+/* menu styling */
+#menu1,
+#menu2,
+#menu3,
+#menu4 {
+  border: #c24848 solid 2px;
+  min-height: 50rem;
+  text-align: center;
+  font-family: "Notable", sans-serif;
+  color: #3a4454;
+  font-size: 3rem;
+  margin-top: 0.5rem;
+}
+.flex {
+  display: flex;
+  justify-content: space-around;
+}
+
+/* background */
+.baggrundtexture_container {
+  position: absolute;
+  z-index: -5;
+  width: 100%;
+  height: auto;
+  top: 10%;
+  left: 50%;
+}
+
+.baggrundtexture {
+  background-image: url(/Images/hvid_drage.webp);
+  background-size: cover;
+  aspect-ratio: 1/1;
+  width: 100%;
+  height: auto;
+}
