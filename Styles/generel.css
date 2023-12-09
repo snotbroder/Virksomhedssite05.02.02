@@ -54,6 +54,11 @@ main {
   margin-bottom: 20px;
 }
 
+section {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
 .center {
   text-align: center;
   margin: auto;
