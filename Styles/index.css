@@ -1,70 +1,16 @@
-.box {
-  width: 10%;
-  aspect-ratio: 1/1;
-  display: inline-block;
-}
-#catering1 {
-  translate: 420% -340%;
-  scale: 0.48 1.88;
-}
-#catering2 {
-  translate: 466% -340%;
-  scale: 0.88 1.88;
-}
-#catering3 {
-  translate: 581% -340%;
-  scale: 1.68 1.88;
-}
-a {
-  text-decoration: none;
-}
-#menu1 {
-  translate: 108% -235%;
-  scale: 1.69 1.9;
-}
-#menu2 {
-  translate: 215% -120%;
-  scale: 0.75 0.57;
-}
-#menu3 {
-  translate: 111% -229%;
-  scale: 0.75 1.33;
-}
-@media (max-width: 800px) {
-  #menu1 {
-    translate: 109% -241%;
-  }
-}
-.menu_container:hover * {
-  background-color: #d1bb7c;
-}
-.menu {
-  display: inline-block;
-
-  aspect-ratio: 1/1;
-  width: 10%;
-}
-.catering_container:hover * {
-  background-color: #af4545;
-}
-.catering_container {
-  position: relative;
-}
 h2 {
   text-align: center;
   color: #3a4454;
 }
-.grid1-1 {
-  text-align: center;
-}
-#screen {
+
+#facade_container {
   width: 100%;
   aspect-ratio: 855/353;
   position: relative;
   container-type: inline-size;
 }
 
-#start {
+#dg_facade {
   width: 100%;
   height: 100%;
   position: absolute;
@@ -112,4 +58,20 @@ h2 {
   display: grid;
   grid-template-columns: 2.3fr 3fr;
   text-align: center;
+}
+
+#knapmenu,
+#knapcatering {
+  font-family: "Glory", sans-serif;
+  font-weight: 800;
+  color: #3a4454;
+  font-size: 130%;
+  transition: 0.3s;
+}
+#knapmenu:hover,
+#knapcatering:hover {
+  font-family: "Glory", sans-serif;
+  font-weight: 800;
+  color: #c24848;
+  transition: 0.3s;
 }

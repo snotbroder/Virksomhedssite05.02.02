@@ -205,7 +205,7 @@ a .CTA2:hover {
   transition: 0.2s;
 }
 a .CTA2:active {
-  color: red;
+  color: #c24848;
 }
 
 /*Footer/ikoner, style*/
@@ -390,6 +390,6 @@ footer a {
 }
 
 footer a:hover {
-  color: red;
+  color: #a51919;
   transition: 0.2s;
 }
