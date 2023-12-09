@@ -22,10 +22,10 @@ function sidenVises() {
     .querySelector("#menucontainer")
     .addEventListener("mouseout", menu_mouseout);
   document
-    .querySelector("#knapmenu")
+    .querySelector(".knapmenu")
     .addEventListener("mouseover", menu_mouseover);
   document
-    .querySelector("#knapmenu")
+    .querySelector(".knapmenu")
     .addEventListener("mouseout", menu_mouseout);
 
   //tilføjer eventlistener på catering
@@ -36,10 +36,10 @@ function sidenVises() {
     .querySelector("#cateringcontainer")
     .addEventListener("mouseout", catering_mouseout);
   document
-    .querySelector("#knapcatering")
+    .querySelector(".knapcatering")
     .addEventListener("mouseover", catering_mouseover);
   document
-    .querySelector("#knapcatering")
+    .querySelector(".knapcatering")
     .addEventListener("mouseout", catering_mouseout);
 }
 
@@ -47,18 +47,22 @@ function sidenVises() {
 function menu_mouseover() {
   console.log("menu_mouseover");
   document.getElementById("menuhover").style.display = "inherit";
+  document.querySelector(".knapmenu").classList.add("hover");
 }
 function menu_mouseout() {
   console.log("menu_mouseout");
   document.getElementById("menuhover").style.display = "none";
+  document.querySelector(".knapmenu").classList.remove("hover");
 }
 
 //catering
 function catering_mouseover() {
   console.log("catering_mouseover");
   document.getElementById("cateringhover").style.display = "inherit";
+  document.querySelector(".knapcatering").classList.add("hover");
 }
 function catering_mouseout() {
   console.log("catering_mouseout");
   document.getElementById("cateringhover").style.display = "none";
+  document.querySelector(".knapcatering").classList.remove("hover");
 }

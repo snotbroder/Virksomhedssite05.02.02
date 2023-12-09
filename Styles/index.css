@@ -42,9 +42,9 @@ h2 {
   bottom: 0;
   right: 0;
   position: absolute;
-  background-size: cover;
   overflow: hidden;
 }
+
 #cateringhover {
   background-image: url(../images/cateringhover.webp);
   background-size: cover;
@@ -60,18 +60,24 @@ h2 {
   text-align: center;
 }
 
-#knapmenu,
-#knapcatering {
+.knapmenu,
+.knapcatering {
   font-family: "Glory", sans-serif;
   font-weight: 800;
   color: #3a4454;
   font-size: 130%;
-  transition: 0.3s;
+  transition: 0.2s;
 }
-#knapmenu:hover,
-#knapcatering:hover {
+.knapmenu:hover,
+.knapcatering:hover {
   font-family: "Glory", sans-serif;
   font-weight: 800;
   color: #c24848;
-  transition: 0.3s;
+  transition: 0.2s;
+}
+.hover {
+  font-family: "Glory", sans-serif;
+  font-weight: 800;
+  color: #c24848;
+  transition: 0.2s;
 }
