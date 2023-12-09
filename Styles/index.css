@@ -2,7 +2,6 @@
   width: 10%;
   aspect-ratio: 1/1;
   display: inline-block;
-  background-color: #d1bb7c;
 }
 #catering1 {
   translate: 420% -340%;
@@ -37,25 +36,80 @@ a {
   }
 }
 .menu_container:hover * {
-  background-color: #837651;
+  background-color: #d1bb7c;
 }
 .menu {
   display: inline-block;
-  background-color: #d1bb7c;
+
   aspect-ratio: 1/1;
   width: 10%;
 }
 .catering_container:hover * {
-  background-color: #524c3c;
+  background-color: #af4545;
 }
 .catering_container {
   position: relative;
-  background-color: #d1bb7c;
 }
 h2 {
   text-align: center;
   color: #3a4454;
 }
 .grid1-1 {
+  text-align: center;
+}
+#screen {
+  width: 100%;
+  aspect-ratio: 855/353;
+  position: relative;
+  container-type: inline-size;
+}
+
+#start {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-image: url(../images/frontdragongrill.webp);
+  background-size: cover;
+  overflow: hidden;
+}
+#menucontainer {
+  aspect-ratio: 347/333;
+  width: 43%;
+  bottom: 0;
+  left: 0;
+  position: absolute;
+}
+#menuhover {
+  background-image: url(../images/menuhover.webp);
+  background-size: cover;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: none;
+}
+
+#cateringcontainer {
+  aspect-ratio: 403/288;
+  width: 57.73%;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  background-size: cover;
+  overflow: hidden;
+}
+#cateringhover {
+  background-image: url(../images/cateringhover.webp);
+  background-size: cover;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: none;
+}
+
+.grid_2fr-3fr {
+  display: grid;
+  grid-template-columns: 2.3fr 3fr;
   text-align: center;
 }
