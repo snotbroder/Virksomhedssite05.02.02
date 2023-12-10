@@ -98,3 +98,41 @@ h2 {
   margin: 0;
   gap: 5px;
 }
+
+a .CTA2 {
+  margin-top: 0;
+  display: grid;
+  margin: auto;
+  width: max-content;
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+p {
+  margin-top: 0;
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+@media (max-width: 900px) {
+  .kyl {
+    order: 2;
+    display: none;
+  }
+  .grid1 {
+    order: 3;
+  }
+  .kokimg {
+    order: 1;
+  }
+
+  .grid1-1-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  a .CTA2 {
+    font-size: 1.1rem;
+    padding: 0.1rem 0.8rem 0.1rem 0.8rem;
+  }
+}
