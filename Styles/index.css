@@ -46,6 +46,7 @@ h2 {
 }
 
 #cateringhover {
+  transition: all 0.3s ease-in-out;
   background-image: url(../images/cateringhover.webp);
   background-size: cover;
   position: relative;
@@ -83,4 +84,7 @@ h2 {
 }
 img {
   padding-top: 10px;
+}
+.kokimg {
+  rotate: 90deg;
 }

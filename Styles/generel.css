@@ -349,7 +349,7 @@ footer {
     top: 22ch;
     gap: 0;
     flex-direction: column;
-    background-image: url(/images/dragon.svg);
+    background-image: url(/images/dragon.webp);
     background-size: cover;
     background-color: #d1bb7c;
     width: 100%;
