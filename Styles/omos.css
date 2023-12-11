@@ -82,10 +82,11 @@ button:hover {
 button:active {
   color: red;
 }
-form p {
+label {
   color: #fee394;
   font-size: 1.5rem;
   font-weight: 800;
+  font-family: "Glory", sans-serif;
 }
 
 .baggrundtexture_container1 {
@@ -130,10 +131,10 @@ form p {
 .tider {
   display: flex;
   justify-content: space-between;
-  color: #c24848;
+  color: var(--dark_red);
   font-family: "Inknut Antiqua", serif;
   list-style: none;
-  font-size: 1.2rem;
+  font-size: 1.4rem;
 }
 
 .tidermargin {
@@ -145,4 +146,11 @@ form p {
 .underline {
   display: block;
   text-decoration: underline;
+  color: var(--dark_red);
+}
+
+#tider {
+  background-color: var(--light_yellow);
+  border-radius: 8px;
+  padding: 1rem;
 }
