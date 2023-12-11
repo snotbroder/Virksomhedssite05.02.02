@@ -89,24 +89,32 @@ section {
 
   .tiltop {
     position: fixed;
-    top: 95%;
+    top: 80%;
     right: 0%;
     height: auto;
-    width: auto;
+    width: 24.5%;
     background-color: var(--dark_blue);
     padding: 2%;
     text-align: center;
-    border-radius: 9px 0px 0px 0px;
-    -webkit-border-radius: 9px 0px 0px 0px;
-    -moz-border-radius: 9px 0px 0px 0px;
+    border-radius: 9px 0px 0px 9px;
+    -webkit-border-radius: 9px 0px 0px 9px;
+    -moz-border-radius: 9px 0px 0px 9px;
   }
 }
 
 .tiltop a {
-  color: red;
+  color: white;
   font-family: "Glory", sans-serif;
   font-size: 1.8rem;
   font-weight: 800;
+}
+
+.tiltop a:hover {
+  color: red;
+}
+
+.tiltop a:active {
+  color: red;
 }
 @media (min-width: 900px) {
   .desktophide {
