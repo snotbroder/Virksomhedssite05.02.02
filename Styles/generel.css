@@ -54,6 +54,11 @@ main {
   margin-bottom: 20px;
 }
 
+section {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
 .center {
   text-align: center;
   margin: auto;
@@ -200,7 +205,7 @@ a .CTA2:hover {
   transition: 0.2s;
 }
 a .CTA2:active {
-  color: red;
+  color: #c24848;
 }
 
 /*Footer/ikoner, style*/
@@ -344,7 +349,7 @@ footer {
     top: 22ch;
     gap: 0;
     flex-direction: column;
-    background-image: url(/images/dragon.svg);
+    background-image: url(/images/dragon.webp);
     background-size: cover;
     background-color: #d1bb7c;
     width: 100%;
@@ -385,6 +390,6 @@ footer a {
 }
 
 footer a:hover {
-  color: red;
+  color: #a51919;
   transition: 0.2s;
 }

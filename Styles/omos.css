@@ -126,3 +126,23 @@ form p {
   font-size: 3rem;
   margin-top: 0.5rem;
 }
+
+.tider {
+  display: flex;
+  justify-content: space-between;
+  color: #c24848;
+  font-family: "Inknut Antiqua", serif;
+  list-style: none;
+  font-size: 1.2rem;
+}
+
+.tidermargin {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 400px;
+}
+
+.underline {
+  display: block;
+  text-decoration: underline;
+}
