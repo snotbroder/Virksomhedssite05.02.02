@@ -1,6 +1,7 @@
 h2 {
   text-align: center;
   color: #3a4454;
+  margin-top: -0.8rem;
 }
 
 #facade_container {
@@ -83,9 +84,11 @@ h2 {
   transition: 0.2s;
 }
 .img {
-  padding-bottom: 10px;
+  padding-bottom: 1rem;
+  padding-top: 2rem;
 }
 .grid1-1-1 {
+  margin-top: 1rem;
   padding-top: 10px;
   overflow: hidden;
   gap: 5px;
@@ -99,40 +102,48 @@ h2 {
   gap: 5px;
 }
 
-a .CTA2 {
-  margin-top: 0;
-  display: grid;
-  margin: auto;
-  width: max-content;
+a .CTA1 {
   font-size: 1.2rem;
   margin-bottom: 10px;
+  margin-top: 1px;
 }
 
 p {
   margin-top: 0;
-  text-align: center;
   margin-bottom: 5px;
 }
-
+@media (min-width: 900px) {
+  .grid3-1 {
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+  }
+}
 @media (max-width: 900px) {
   .kyl {
     order: 2;
-    display: none;
   }
   .grid1 {
     order: 3;
   }
   .kokimg {
     order: 1;
+    display: none;
   }
 
   .grid1-1-1 {
+    margin-top: 1rem;
     display: grid;
     grid-template-columns: 1fr 1fr;
   }
 
-  a .CTA2 {
+  a .CTA1 {
     font-size: 1.1rem;
     padding: 0.1rem 0.8rem 0.1rem 0.8rem;
+    display: grid;
+    margin: auto;
+    max-width: fit-content;
+  }
+  p {
+    text-align: center;
   }
 }
