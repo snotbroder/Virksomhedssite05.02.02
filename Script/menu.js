@@ -26,10 +26,10 @@ function showMenu1() {
   menu4.style.display = "none";
 
   //Styling af knappen
-  menu1Knap.classList.add("selected");
-  menu2Knap.classList = "";
-  menu3Knap.classList = "";
-  menu4Knap.classList = "";
+  menu1Knap.firstElementChild.classList.add("selected");
+  menu2Knap.firstElementChild.classList = "CTA2";
+  menu3Knap.firstElementChild.classList = "CTA2";
+  menu4Knap.firstElementChild.classList = "CTA2";
 }
 
 function showMenu2() {
@@ -41,10 +41,11 @@ function showMenu2() {
   menu4.style.display = "none";
 
   //Styling af knappen
-  menu1Knap.classList = "";
-  menu2Knap.classList.add("selected");
-  menu3Knap.classList = "";
-  menu4Knap.classList = "";
+  //Styling af knappen
+  menu1Knap.firstElementChild.classList = "CTA2";
+  menu2Knap.firstElementChild.classList.add("selected");
+  menu3Knap.firstElementChild.classList = "CTA2";
+  menu4Knap.firstElementChild.classList = "CTA2";
 }
 function showMenu3() {
   console.log("Menu3 vises");
@@ -55,10 +56,10 @@ function showMenu3() {
   menu4.style.display = "none";
 
   //Styling af knappen
-  menu1Knap.classList = "";
-  menu2Knap.classList = "";
-  menu3Knap.classList.add("selected");
-  menu4Knap.classList = "";
+  menu1Knap.firstElementChild.classList = "CTA2";
+  menu2Knap.firstElementChild.classList = "CTA2";
+  menu3Knap.firstElementChild.classList.add("selected");
+  menu4Knap.firstElementChild.classList = "CTA2";
 }
 function showMenu4() {
   console.log("Menu4 vises");
@@ -69,10 +70,10 @@ function showMenu4() {
   menu4.style.display = "inherit";
 
   //Styling af knappen
-  menu1Knap.classList = "";
-  menu2Knap.classList = "";
-  menu3Knap.classList = "";
-  menu4Knap.classList.add("selected");
+  menu1Knap.firstElementChild.classList = "CTA2";
+  menu2Knap.firstElementChild.classList = "CTA2";
+  menu3Knap.firstElementChild.classList = "CTA2";
+  menu4Knap.firstElementChild.classList.add("selected");
 }
 
 // document.getElementById("menu1").style.display = "inherit";
