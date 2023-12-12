@@ -80,7 +80,7 @@ button:hover {
 }
 
 button:active {
-  color: red;
+  color: var(--light_red);
 }
 label {
   color: #fee394;
@@ -153,6 +153,9 @@ label {
   background-color: var(--light_yellow);
   border-radius: 8px;
   padding: 1rem;
+  opacity: 50%;
+  margin-top: 4rem;
+  padding-bottom: 3rem;
 }
 
 iframe {
