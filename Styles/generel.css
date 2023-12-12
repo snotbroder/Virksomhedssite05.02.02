@@ -350,6 +350,12 @@ footer {
   transition: 0.3s;
   font-size: 1.45rem;
 }
+.active {
+  text-decoration: none;
+  color: var(--dark_red);
+  transition: 0.3s;
+  font-size: 1.45rem;
+}
 
 /*-------------mobil---------------*/
 @media (max-width: 900px) {
