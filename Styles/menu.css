@@ -30,10 +30,10 @@ ul {
 }
 
 .baggrundtexture {
-  background-image: url(/Images/hvid_drage.webp);
+  background-image: url(/Images/hvid_drage_half.webp);
   background-size: cover;
-  aspect-ratio: 1/1;
-  width: 100%;
+  aspect-ratio: 1127/2234;
+  width: 52%;
   height: auto;
 }
 
