@@ -433,14 +433,14 @@ a .selected {
   z-index: -5;
   width: 100%;
   height: auto;
-  top: 10%;
-  left: 50%;
+  top: 56%;
+  left: 63%;
 }
 
 .baggrundtexture {
   background-image: url(/Images/hvid_drage_half.webp);
   background-size: cover;
-  aspect-ratio: 1/1;
-  width: 100%;
+  aspect-ratio: 1127/2234;
+  width: 37%;
   height: auto;
 }
