@@ -37,6 +37,13 @@
     </header>
 
     <main>
+
+        <div class="contact">
+            RING OG BESTIL
+            <br>
+            <a href="">+45 32 58 59 70</a>
+        </div>
+
         <h1 class="flex">Hvem er vi?</h1>
         <h2>Fra familie til virksomhed</h2>
         <br>
@@ -137,94 +144,102 @@
                 kontaktformular nedenfor.
                 Vi sætter pris på din interesse i vores produkter/tjenester. Brug formularen til at give os besked om
                 dine behov eller anmodninger.</p>
+            <p>Din mening er vigtig for os. Del dine tanker med os ved at udfylde formularen, og vi vil vende tilbage
+                til dig hurtigst muligt.</p>
 
-            </header>
             <!-- Formular-indhold -->
             <form name="Dragon grillbar kontaktformular" action="indsendt.html#kontakt" netlify>
                 <div class="form-felt">
                     <label for="fnavn">
-                        <p>Navn*</p>
+                        Navn*
                     </label>
-                    <input required id="fnavn" class="end" placeholder="eks. Jens" />
+                    <input required id="fnavn" class="end" placeholder="eks. Jens">
 
                     <label for="enavn">
-                        <p>Efternavn</p>
+                        Efternavn
                     </label>
-                    <input id="enavn" class="end" placeholder="eks. Jensen" />
+                    <input id="enavn" class="end" placeholder="eks. Jensen">
 
                     <label for="email">
-                        <p>Email</p>
+                        Email
                     </label>
-                    <input id="email" type="email" class="end" placeholder="din@email.dk" />
+                    <input id="email" type="email" class="end" placeholder="din@email.dk">
 
-                    <p>Årsag* </p><label for="henvendelse"><select required id="henvendelse" name="Vælg stilling">
-                            <option value="underviser">Vælg</option>
-                            <option value="studerende">Kvalitet</option>
-                            <option value="studerende">Leveringstid</option>
-                            <option value="studerende">Catering</option>
-                            <option value="studerende">Allergener</option>
-                            <option value="studerende">Andet</option>
-                        </select> </label>
+                    <label for="henvendelse">Årsag*</label><br>
+                    <select multiple id="henvendelse" name="Vælg stilling">
+                        <option value="Catering">Catering</option>
+                        <option value="Allergener">Allergener</option>
+                        <option value="Kvalitet">Kvalitet</option>
+                        <option value="Leveringstid">Leveringstid</option>
+                        <option value="Andet">Andet</option>
+                    </select>
+                    <br>
                     <label for="besked">
-                        <p>Besked*</p>
+                        Besked*
                     </label>
                     <textarea required id="besked" placeholder="Her kan du skrive tekst..." name="textarea"></textarea>
 
                     <div class="flex">
-                        <button type="submit" for="submit">Send form</button>
+                        <button type="submit">Send form</button>
                     </div>
 
                 </div>
             </form>
-            <p>Din mening er vigtig for os. Del dine tanker med os ved at udfylde formularen, og vi vil vende tilbage
-                til dig hurtigst muligt.</p>
+
         </section>
 
         <section id="findos">
             <h2>Find os</h2>
-            <div class="flex">
-                <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d9004.655940976776!2d12.6118564!3d55.6513567!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4653acacf5e0d15d%3A0x3559cea4e22d9712!2sDragon%20Grill!5e0!3m2!1sen!2sdk!4v1701957415811!5m2!1sen!2sdk"
-                    width="1200" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <p>Find os på adressen <a href="">Amagerbrogade 186, 2300 København S</a>.</p>
+            <div class="grid1-1">
+                <div class="col1"><img src="Images/facade.webp" alt=""> <img src="Images/madpabord.webp" alt=""></div>
+                <div class="col2">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d9004.655940976776!2d12.6118564!3d55.6513567!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4653acacf5e0d15d%3A0x3559cea4e22d9712!2sDragon%20Grill!5e0!3m2!1sen!2sdk!4v1701957415811!5m2!1sen!2sdk"
+                        width="" height="" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <img src="Images/sofia_aug_nora2.webp" alt="">
+                </div>
             </div>
 
-            <p>Find os på adressen <a href="">Amagerbrogade 186, 2300 København S</a>.</p>
         </section>
 
         <section id="tider">
-            <h2>Åbningstider</h2>
+            <div class="grid3-1">
+                <div class="col1"></div>
+                <h2 class="col2">Åbningstider</h2>
+            </div>
             <div class="tidermargin">
-                <ul class="underline">
-                    <div class="tider">
+                <div class="underline">
+                    <ul class="tider">
                         <li>Mandag</li>
                         <li>15.30 - 21.30</li>
-                    </div>
-                    <div class="tider">
+                    </ul>
+                    <ul class="tider">
                         <li>Tirsdag</li>
                         <li>LUKKET</li>
-                    </div>
-                    <div class="tider">
+                    </ul>
+                    <ul class="tider">
                         <li>Onsdag</li>
                         <li>15.30 - 21.30</li>
-                    </div>
-                    <div class="tider">
+                    </ul>
+                    <ul class="tider">
                         <li>Torsdag</li>
                         <li>15.30 - 21.30</li>
-                    </div>
-                    <div class="tider">
+                    </ul>
+                    <ul class="tider">
                         <li>Fredag</li>
                         <li>15.30 - 21.30</li>
-                    </div>
-                    <div class="tider">
+                    </ul>
+                    <ul class="tider">
                         <li>Lørdag</li>
                         <li>15.30 - 21.30</li>
-                    </div>
-                    <div class="tider">
+                    </ul>
+                    <ul class="tider">
                         <li>Søndag</li>
                         <li>15.30 - 21.30</li>
-                    </div>
-                </ul>
+                    </ul>
+                </div>
             </div>
 
 
@@ -294,7 +309,7 @@
                 <div class="grid3-1">
                     <img class="col2 mobilehide" id="call" src="icons/call_icon.svg" alt="telefon ikon">
                     <div class="col1 footertekst">
-                        <a href="tel:+45 32 58 59 70">+45 32 58 59 70</a>
+                        <a href="">+45 32 58 59 70</a>
                     </div>
                 </div>
                 <div class="grid3-1">

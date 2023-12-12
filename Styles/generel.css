@@ -11,16 +11,25 @@ img {
   box-sizing: border-box;
 }
 
+html {
+  --dark_red: #a51919;
+  --light_red: #c24848;
+  --dark_yellow: #d1bb7c;
+  --yellow: #fee394;
+  --light_yellow: #fff7de;
+  --dark_blue: #3a4454;
+}
+
 h1 {
   font-family: "Notable", sans-serif;
-  color: #3a4454;
+  color: var(--dark_blue);
   font-size: 3rem;
   margin-top: 0.5rem;
   margin-bottom: 0.5rem;
 }
 h2 {
   font-family: "Inknut Antiqua", serif;
-  color: #c24848;
+  color: var(--light_red);
   font-size: 1.8rem;
   margin-top: 1rem;
 }
@@ -28,7 +37,7 @@ h2 {
 h3 {
   font-family: "Glory", sans-serif;
   font-weight: 800;
-  color: #c24848;
+  color: var(--light_red);
   font-size: 1.4rem;
   margin-top: 1rem;
 }
@@ -36,7 +45,7 @@ h3 {
 p {
   font-family: "Glory", sans-serif;
   font-weight: 400;
-  color: #3a4454;
+  color: var(--dark_blue);
   line-height: 1.5rem;
   font-size: 1.1rem;
   margin-top: 1rem;
@@ -44,7 +53,7 @@ p {
 }
 
 body {
-  background-color: #fee394;
+  background-color: var(--yellow);
 }
 
 main {
@@ -80,24 +89,32 @@ section {
 
   .tiltop {
     position: fixed;
-    top: 95%;
+    top: 80%;
     right: 0%;
     height: auto;
-    width: auto;
-    background-color: #3a4454;
+    width: 24.5%;
+    background-color: var(--dark_blue);
     padding: 2%;
     text-align: center;
-    border-radius: 9px 0px 0px 0px;
-    -webkit-border-radius: 9px 0px 0px 0px;
-    -moz-border-radius: 9px 0px 0px 0px;
+    border-radius: 9px 0px 0px 9px;
+    -webkit-border-radius: 9px 0px 0px 9px;
+    -moz-border-radius: 9px 0px 0px 9px;
   }
 }
 
 .tiltop a {
-  color: red;
+  color: white;
   font-family: "Glory", sans-serif;
   font-size: 1.8rem;
   font-weight: 800;
+}
+
+.tiltop a:hover {
+  color: red;
+}
+
+.tiltop a:active {
+  color: red;
 }
 @media (min-width: 900px) {
   .desktophide {
@@ -149,8 +166,8 @@ a .CTA1 {
   max-width: 100%;
   font-size: 1.5rem;
   padding: 0.5rem 1rem 0.5rem 1rem;
-  background-color: #3a4454;
-  color: #fee394;
+  background-color: var(--dark_blue);
+  color: var(--yellow);
   border-radius: 4px;
   font-weight: 800;
   font-family: "Glory", sans-serif;
@@ -160,12 +177,12 @@ a .CTA1 {
   -moz-box-shadow: -4px 2px 11px -1px rgba(0, 0, 0, 0.14);
   margin-top: 1rem;
   margin-bottom: 1rem;
-  border: solid #3a4454 4px;
+  border: solid var(--dark_blue) 4px;
   transition: 0.2s;
 }
 a .CTA1:hover {
-  color: #3a4454;
-  background-color: #fee394;
+  color: var(--dark_blue);
+  background-color: var(--yellow);
   box-shadow: -4px 2px 11px -1px rgba(0, 0, 0, 0.26) inset;
   -webkit-box-shadow: -4px 2px 11px -1px rgba(0, 0, 0, 0.26) inset;
   -moz-box-shadow: -4px 2px 11px -1px rgba(0, 0, 0, 0.26) inset;
@@ -182,8 +199,8 @@ a .CTA2 {
   max-width: 100%;
   font-size: 1.5rem;
   padding: 0.5rem 1rem 0.5rem 1rem;
-  background-color: #c24848;
-  color: #fee394;
+  background-color: var(--light_red);
+  color: var(--yellow);
   border-radius: 4px;
   font-weight: 800;
   font-family: "Glory", sans-serif;
@@ -193,26 +210,26 @@ a .CTA2 {
   -moz-box-shadow: -4px 2px 11px -1px rgba(0, 0, 0, 0.14);
   margin-top: 1rem;
   margin-bottom: 1rem;
-  border: solid #c24848 4px;
+  border: solid var(--light_red) 4px;
   transition: 0.2s;
 }
 
 a .CTA2:hover {
-  color: #c24848;
-  background-color: #fee394;
+  color: var(--light_red);
+  background-color: var(--yellow);
   box-shadow: -4px 2px 11px -1px rgba(0, 0, 0, 0.26) inset;
   -webkit-box-shadow: -4px 2px 11px -1px rgba(0, 0, 0, 0.26) inset;
   -moz-box-shadow: -4px 2px 11px -1px rgba(0, 0, 0, 0.26) inset;
   transition: 0.2s;
 }
 a .CTA2:active {
-  color: #c24848;
+  color: var(--light_red);
 }
 
 /*Footer/ikoner, style*/
 footer {
   display: block;
-  background-color: #d1bb7c;
+  background-color: var(--dark_yellow);
   height: auto;
   padding-top: 1rem;
   padding-bottom: 1rem;
@@ -223,7 +240,7 @@ footer {
 .footertekst {
   font-family: "Glory", sans-serif;
   font-weight: 800;
-  color: #c24848;
+  color: var(--light_red);
   font-size: 1.4rem;
   margin-left: 1rem;
   margin-bottom: 2rem;
@@ -239,7 +256,7 @@ footer {
 
   font-family: "Glory", sans-serif;
   font-weight: 800;
-  color: #c24848;
+  color: var(--light_red);
   font-size: 1.4rem;
 
   margin-bottom: 2rem;
@@ -300,7 +317,7 @@ footer {
   margin: 8px auto;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
-  background-color: #c24848;
+  background-color: var(--light_red);
 }
 /*MENU*/
 
@@ -309,7 +326,7 @@ footer {
 }
 .nav-link {
   text-decoration: none;
-  color: #c24848;
+  color: var(--light_red);
   padding-left: 20px;
   padding-right: 20px;
   padding-top: 10px;
@@ -323,7 +340,7 @@ footer {
 
 .nav-link:hover {
   text-decoration: none;
-  color: #a51919;
+  color: var(--dark_red);
   transition: 0.3s;
   font-size: 1.45rem;
 }
@@ -352,7 +369,7 @@ footer {
     flex-direction: column;
     background-image: url(/images/dragon.webp);
     background-size: cover;
-    background-color: #d1bb7c;
+    background-color: var(--dark_yellow);
     width: 100%;
     text-align: center;
     transition: 0.3s;
@@ -369,35 +386,35 @@ footer {
 /*FIXED NOTE AT THE BOTTOM OF THE PAGE*/
 .contact {
   font-family: "Glory", sans-serif;
-  color: #fee394;
+  color: var(--yellow);
   padding: 10px;
   position: fixed;
   bottom: 0;
   right: 0;
-  background-color: #c24848;
+  background-color: var(--light_red);
   border-radius: 5px;
   margin: 10px;
   font-size: 100%;
 }
 .contact a {
-  color: #fee394;
+  color: var(--yellow);
   text-decoration: underline;
   font-size: 120%;
 }
 
 footer a {
-  color: #c24848;
+  color: var(--light_red);
   transition: 0.2s;
 }
 
 footer a:hover {
-  color: #a51919;
+  color: var(--dark_red);
   transition: 0.2s;
 }
 
 a .selected {
-  color: #c24848;
-  background-color: #fee394;
+  color: var(--light_red);
+  background-color: var(--yellow);
   box-shadow: -4px 2px 11px -1px rgba(0, 0, 0, 0.26) inset;
   -webkit-box-shadow: -4px 2px 11px -1px rgba(0, 0, 0, 0.26) inset;
   -moz-box-shadow: -4px 2px 11px -1px rgba(0, 0, 0, 0.26) inset;
