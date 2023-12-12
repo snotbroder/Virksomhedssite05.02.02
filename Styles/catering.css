@@ -19,6 +19,9 @@
     left: 44%;
     width: 2%;
   }
+  h1 {
+    text-align: center;
+  }
 }
 
 h5 {
