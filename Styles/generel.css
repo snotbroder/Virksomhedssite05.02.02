@@ -426,3 +426,21 @@ a .selected {
   -moz-box-shadow: -4px 2px 11px -1px rgba(0, 0, 0, 0.26) inset;
   transition: 0.2s;
 }
+
+/* background */
+.baggrundtexture_container {
+  position: absolute;
+  z-index: -5;
+  width: 100%;
+  height: auto;
+  top: 10%;
+  left: 50%;
+}
+
+.baggrundtexture {
+  background-image: url(/Images/hvid_drage_half.webp);
+  background-size: cover;
+  aspect-ratio: 1/1;
+  width: 100%;
+  height: auto;
+}
