@@ -382,7 +382,7 @@ footer {
     position: absolute;
     left: -500%;
     height: 72%;
-    top: 22ch;
+    top: 15ch;
     gap: 0;
     flex-direction: column;
     background-image: url(/images/dragon.webp);
@@ -448,7 +448,7 @@ main a:hover {
 }
 
 hr {
-  border: 1px solid #3a4454;
+  border: 0.5px solid #3a4454;
   opacity: 20%;
   width: 400px;
   margin: 10px auto;
