@@ -31,10 +31,15 @@ ul {
 
 .baggrundtexture {
   background-image: url(/Images/hvid_drage.webp);
-  background-size: cover;
+  background-size: auto;
+  background-repeat: no-repeat;
   aspect-ratio: 1/1;
   width: 100%;
   height: auto;
+  position: absolute;
+  z-index: -5;
+  top: 10%;
+  left: 50%;
 }
 
 .itempris {

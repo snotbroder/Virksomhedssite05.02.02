@@ -80,7 +80,7 @@ button:hover {
 }
 
 button:active {
-  color: red;
+  color: var(--light_red);
 }
 label {
   color: #fee394;
