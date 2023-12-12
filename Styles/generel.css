@@ -116,11 +116,11 @@ section {
 }
 
 .tiltop a:hover {
-  color: red;
+  color: var(--light_red);
 }
 
 .tiltop a:active {
-  color: red;
+  color: var(--light_red);
 }
 @media (min-width: 900px) {
   .desktophide {
