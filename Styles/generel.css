@@ -31,7 +31,7 @@ h1 {
   color: var(--dark_blue);
   font-size: 3rem;
   margin-top: 0.5rem;
-  margin-bottom: 0.5rem;
+  margin-bottom: 2rem;
 }
 h2 {
   font-family: "Inknut Antiqua", serif;
@@ -345,6 +345,12 @@ footer {
 }
 
 .nav-link:hover {
+  text-decoration: none;
+  color: var(--dark_red);
+  transition: 0.3s;
+  font-size: 1.45rem;
+}
+.active {
   text-decoration: none;
   color: var(--dark_red);
   transition: 0.3s;
