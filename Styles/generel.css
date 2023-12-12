@@ -442,7 +442,7 @@ main a:hover {
 }
 
 hr {
-  border: 1px solid #3a4454;
+  border: 0.5px solid #3a4454;
   opacity: 20%;
   width: 400px;
   margin: 10px auto;
