@@ -382,7 +382,7 @@ footer {
     position: absolute;
     left: -500%;
     height: 72%;
-    top: 22ch;
+    top: 15ch;
     gap: 0;
     flex-direction: column;
     background-image: url(/images/dragon.webp);
