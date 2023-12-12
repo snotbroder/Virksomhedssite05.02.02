@@ -24,13 +24,13 @@ html {
   --yellow: #fee394;
   --light_yellow: #fff7de;
   --dark_blue: #3a4454;
+  --darker_dark_yellow: #948357;
 }
 
 h1 {
   font-family: "Notable", sans-serif;
   color: var(--dark_blue);
   font-size: 3rem;
-  margin-top: 0.5rem;
   margin-bottom: 2rem;
 }
 h2 {
@@ -265,13 +265,10 @@ footer {
 
 .footerlinks {
   width: 100%;
-
   font-family: "Glory", sans-serif;
   font-weight: 800;
   color: var(--light_red);
-  font-size: 1.4rem;
-
-  margin-bottom: 2rem;
+  font-size: 1.2rem;
 }
 
 #hours,
@@ -296,8 +293,17 @@ footer {
 }
 
 .footerlink {
-  margin-top: 1rem;
-  margin-bottom: 1rem;
+  margin-top: 3.5rem;
+}
+
+footer a {
+  color: var(--light_red);
+  transition: 0.2s;
+}
+
+footer a:hover {
+  color: var(--dark_red);
+  transition: 0.2s;
 }
 
 /*MENU*/
@@ -352,13 +358,13 @@ footer {
 
 .nav-link:hover {
   text-decoration: none;
-  color: var(--dark_red);
+  color: var(--dark_blue);
   transition: 0.3s;
   font-size: 1.45rem;
 }
 .active {
   text-decoration: none;
-  color: var(--dark_red);
+  color: var(--dark_blue);
   transition: 0.3s;
   font-size: 1.45rem;
 }
@@ -418,16 +424,6 @@ footer {
   color: var(--yellow);
   text-decoration: underline;
   font-size: 120%;
-}
-
-footer a {
-  color: var(--light_red);
-  transition: 0.2s;
-}
-
-footer a:hover {
-  color: var(--dark_red);
-  transition: 0.2s;
 }
 
 a .selected {

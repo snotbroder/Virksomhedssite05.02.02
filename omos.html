@@ -128,13 +128,7 @@
         </section> -->
 
         <section id="kontakt">
-            <p>heey</p>
-            <div class="grid3-1">
-                <div class="col1"></div>
-                <div class="col2">
-                    <h2>Kontakt os</h2>
-                </div>
-            </div>
+            <h2>Kontakt os</h2>
             <h3>
                 Udfyld kontaktformularen for at kontakte os. Vi glæder os til at
                 høre fra dig.
@@ -143,8 +137,7 @@
                 kontaktformular nedenfor.
                 Vi sætter pris på din interesse i vores produkter/tjenester. Brug formularen til at give os besked om
                 dine behov eller anmodninger.</p>
-            <p>Din mening er vigtig for os. Del dine tanker med os ved at udfylde formularen, og vi vil vende tilbage
-                til dig hurtigst muligt.</p>
+
 
             <!-- Formular-indhold -->
             <form name="Dragon grillbar kontaktformular" action="indsendt.html#kontakt" netlify>
@@ -159,28 +152,40 @@
                     </label>
                     <input id="enavn" class="end" placeholder="eks. Jensen">
 
-                    <label for="email">
-                        Email
-                    </label>
-                    <input id="email" type="email" class="end" placeholder="din@email.dk">
+                </div>
+                <label for="email">
+                    Email*
+                </label>
+                <input id="email" type="email" class="end" placeholder="din@email.dk">
 
-                    <label for="henvendelse">Årsag*</label><br>
-                    <select multiple id="henvendelse" name="Vælg stilling">
-                        <option value="Catering">Catering</option>
-                        <option value="Allergener">Allergener</option>
-                        <option value="Kvalitet">Kvalitet</option>
-                        <option value="Leveringstid">Leveringstid</option>
-                        <option value="Andet">Andet</option>
-                    </select>
-                    <br>
-                    <label for="besked">
-                        Besked*
-                    </label>
-                    <textarea required id="besked" placeholder="Her kan du skrive tekst..." name="textarea"></textarea>
+                <label for="henvendelse">Årsag*</label><br>
+                <select multiple id="henvendelse" name="Vælg stilling">
+                    <option value="Catering">Catering</option>
+                    <option value="Allergener">Allergener</option>
+                    <option value="Kvalitet">Kvalitet</option>
+                    <option value="Leveringstid">Leveringstid</option>
+                    <option value="Andet">Andet</option>
+                </select>
+                <br>
+                <label for="besked">
+                    Besked*
+                </label>
+                <textarea required id="besked" placeholder="Her kan du skrive tekst..." name="textarea"></textarea>
 
-                    <div class="flex">
-                        <button type="submit">Send form</button>
+                <div class="flex">
+                    <button type="submit">Send form</button>
+                </div>
+                <div class="grid1-1">
+                    <div class="col1">
+
                     </div>
+                    <div class="col2">
+                        <p>Din mening er vigtig for os. Del dine tanker med os ved at udfylde formularen, og vi vil
+                            vende
+                            tilbage
+                            til dig hurtigst muligt.</p>
+                    </div>
+                </div>
 
                 </div>
             </form>
@@ -190,19 +195,19 @@
                 <div class="baggrundtexture"></div>
             </div>
         </section>
-
+        <hr>
         <section id="findos">
             <h2>Find os</h2>
             <p>Find os på adressen <a href="">Amagerbrogade 186, 2300 København S</a>.</p>
             <div class="grid1-1">
-                <div class="col1"><img src="Images/facade.webp" alt="tegning af facaden"> <img
-                        src="Images/madpabord.webp" alt=""></div>
+                <div class="col1"><img src="Images/facade.webp" alt="facaden på grillen"> <img
+                        src="Images/madpabord.webp" alt="frituremad"></div>
                 <div class="col2">
-                    <iframe title="googlemaps"
+                    <iframe title="googlemaps" class="googlemaps"
                         src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d9004.655940976776!2d12.6118564!3d55.6513567!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4653acacf5e0d15d%3A0x3559cea4e22d9712!2sDragon%20Grill!5e0!3m2!1sen!2sdk!4v1701957415811!5m2!1sen!2sdk"
                         width="" height="" style="border:0;" allowfullscreen="" loading="lazy"
                         referrerpolicy="no-referrer-when-downgrade"></iframe>
-                    <img src="Images/sofia_aug_nora2.webp" alt="">
+                    <img src="Images/sofia_aug_nora2.webp" alt="Kunder der spiser mad i grillen">
                 </div>
             </div>
 
@@ -210,7 +215,7 @@
         <hr>
         <section id="tider">
 
-            <h2 class="flex ">Åbningstider</h2>
+            <h2 class="flex">Åbningstider</h2>
 
             <div class="tidermargin">
                 <div class="underline">
