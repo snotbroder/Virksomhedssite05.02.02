@@ -1,6 +1,6 @@
 form {
   padding: 2rem;
-  background: #c24848;
+  background: var(--dark_yellow);
   border-radius: 8px;
   margin-bottom: 3rem;
 }
@@ -16,9 +16,11 @@ input {
   font-family: system-ui, sans-serif;
   border: 0;
   border-radius: 4px;
-  background-color: #a51919;
-  color: #fee394;
+  background-color: var(--darker_dark_yellow);
+  color: white;
   padding: 10px;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 
 textarea {
@@ -30,13 +32,22 @@ textarea {
   border: 0;
   border-radius: 4px;
   resize: none;
-  background-color: #a51919;
+  background-color: var(--darker_dark_yellow);
   padding: 10px;
-  color: #fee394;
+  color: white;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 
 ::placeholder {
-  color: #c24848;
+  color: var(--dark_blue);
+}
+
+label {
+  color: var(--light_red);
+  font-size: 1.5rem;
+  font-weight: 800;
+  font-family: "Glory", sans-serif;
 }
 
 select {
@@ -46,9 +57,11 @@ select {
   height: 3rem;
   border: 0;
   border-radius: 4px;
-  background-color: #a51919;
-  color: #c24848;
+  background-color: var(--darker_dark_yellow);
+  color: var(--dark_blue);
   padding: 10px;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 button {
   display: inline-block;
@@ -72,7 +85,7 @@ button {
 
 button:hover {
   color: #3a4454;
-  background-color: #fee394;
+  background-color: var(--dark_yellow);
   box-shadow: -4px 2px 11px -1px rgba(0, 0, 0, 0.26) inset;
   -webkit-box-shadow: -4px 2px 11px -1px rgba(0, 0, 0, 0.26) inset;
   -moz-box-shadow: -4px 2px 11px -1px rgba(0, 0, 0, 0.26) inset;
@@ -81,12 +94,6 @@ button:hover {
 
 button:active {
   color: var(--light_red);
-}
-label {
-  color: #fee394;
-  font-size: 1.5rem;
-  font-weight: 800;
-  font-family: "Glory", sans-serif;
 }
 
 .baggrundtexture_container1 {
@@ -150,15 +157,13 @@ label {
 }
 
 #tider {
-  background-color: var(--light_yellow);
+  background-color: #eedfb4;
   border-radius: 8px;
   padding: 1rem;
-  opacity: 50%;
   margin-top: 4rem;
   padding-bottom: 3rem;
 }
 
-iframe {
-  width: 100%;
-  height: 17vw;
+.googlemaps {
+  aspect-ratio: 16/9;
 }
