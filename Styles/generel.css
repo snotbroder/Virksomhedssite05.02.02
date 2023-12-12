@@ -427,6 +427,20 @@ a .selected {
   transition: 0.2s;
 }
 
+main a {
+  color: var(--light_red);
+}
+
+main a:hover {
+  color: var(--dark_blue);
+}
+
+hr {
+  border: 1px solid #3a4454;
+  opacity: 20%;
+  width: 400px;
+  margin: 10px auto;
+}
 /* background */
 .baggrundtexture_container {
   position: absolute;
