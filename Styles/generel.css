@@ -466,3 +466,18 @@ hr {
   width: 37%;
   height: auto;
 }
+
+.video {
+  width: 100%;
+  aspect-ratio: 16/9;
+  border-radius: 8px;
+  margin-bottom: 2rem;
+}
+
+.forsidevideo {
+  width: 100%;
+  aspect-ratio: 16/9;
+  margin-bottom: 2rem;
+  z-index: -20;
+  border-radius: 8px;
+}

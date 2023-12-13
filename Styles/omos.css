@@ -177,10 +177,3 @@ button:active {
 .lowmargin {
   margin-top: -1rem;
 }
-
-.omosvideo {
-  width: 100%;
-  aspect-ratio: 16/9;
-  border-radius: 8px;
-  margin-bottom: 2rem;
-}
