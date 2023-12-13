@@ -407,7 +407,8 @@ footer a:hover {
   }
 }
 
-FIXED NOTE AT THE BOTTOM OF THE PAG .contact {
+/*FIXED NOTE AT THE BOTTOM OF THE PAGE*/
+.contact {
   font-family: "Glory", sans-serif;
   color: var(--yellow);
   padding: 10px;
