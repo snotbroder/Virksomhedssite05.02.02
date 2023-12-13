@@ -4,6 +4,13 @@ h2 {
   margin-top: -0.8rem;
 }
 
+video {
+  width: 100%;
+  height: 100%;
+  display: block;
+  margin-top: 1rem;
+}
+
 #facade_container {
   width: 100%;
   aspect-ratio: 855/353;
@@ -87,8 +94,7 @@ h2 {
   padding-top: 2rem;
 }
 .grid1-1-1 {
-  margin-top: 1rem;
-  padding-top: 10px;
+  padding-top: 5px;
   overflow: hidden;
   gap: 5px;
 }
