@@ -167,3 +167,13 @@ button:active {
 .googlemaps {
   aspect-ratio: 71/40;
 }
+
+/*ændring i grid 1-1-1, som en ide*/
+.grid1-1-1 {
+  display: grid;
+  gap: 5px;
+  margin-bottom: 3rem;
+}
+.lowmargin {
+  margin-top: -1rem;
+}
