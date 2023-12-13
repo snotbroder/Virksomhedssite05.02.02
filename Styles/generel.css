@@ -452,7 +452,8 @@ hr {
 /* background */
 .baggrundtexture_container {
   position: absolute;
-  z-index: -5;
+  display: flex;
+  z-index: -1;
   width: 100%;
   height: auto;
   top: 56%;
