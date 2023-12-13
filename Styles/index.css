@@ -111,6 +111,10 @@ p {
   margin-top: 0;
   margin-bottom: 5px;
 }
+.lowmargin {
+  margin-top: -1rem;
+  text-align: center;
+}
 @media (min-width: 900px) {
   .grid3-1 {
     display: grid;
