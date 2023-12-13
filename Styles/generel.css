@@ -452,7 +452,8 @@ hr {
 /* background */
 .baggrundtexture_container {
   position: absolute;
-  z-index: -5;
+  display: flex;
+  z-index: -21;
   width: 100%;
   height: auto;
   top: 56%;
@@ -465,4 +466,18 @@ hr {
   aspect-ratio: 1127/2234;
   width: 37%;
   height: auto;
+}
+
+.video {
+  width: 100%;
+  aspect-ratio: 16/9;
+  border-radius: 8px;
+  margin-bottom: 2rem;
+}
+
+.forsidevideo {
+  width: 100%;
+  aspect-ratio: 16/9;
+  margin-bottom: 2rem;
+  border-radius: 8px;
 }
