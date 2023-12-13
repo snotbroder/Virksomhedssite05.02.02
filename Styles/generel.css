@@ -407,9 +407,7 @@ footer a:hover {
   }
 }
 
-
-/*FIXED NOTE AT THE BOTTOM OF THE PAG
-.contact {
+FIXED NOTE AT THE BOTTOM OF THE PAG .contact {
   font-family: "Glory", sans-serif;
   color: var(--yellow);
   padding: 10px;
@@ -426,6 +424,7 @@ footer a:hover {
   text-decoration: underline;
   font-size: 120%;
 }
+
 a .selected {
   color: var(--light_red);
   background-color: var(--yellow);
@@ -446,7 +445,7 @@ hr {
   width: 400px;
   margin: 10px auto;
 }
-  margin: 10px a
+
 .baggrundtexture_container {
   position: absolute;
   display: flex;
