@@ -391,7 +391,7 @@ footer a:hover {
     top: 15ch;
     gap: 0;
     flex-direction: column;
-    background-image: url(/Images/dragon.webp);
+    background-image: url(../Images/dragon.webp);
     background-size: cover;
     background-color: var(--dark_yellow);
     width: 100%;
@@ -457,7 +457,7 @@ hr {
   left: 63%;
 }
 .baggrundtexture {
-  background-image: url(/Images/hvid_drage_half.webp);
+  background-image: url(../Images/hvid_drage_half.webp);
   background-size: cover;
   aspect-ratio: 1127/2234;
   width: 37%;
