@@ -391,7 +391,7 @@ footer a:hover {
     top: 15ch;
     gap: 0;
     flex-direction: column;
-    background-image: url(/images/dragon.webp);
+    background-image: url(/Images/dragon.webp);
     background-size: cover;
     background-color: var(--dark_yellow);
     width: 100%;
@@ -407,7 +407,8 @@ footer a:hover {
   }
 }
 
-/*FIXED NOTE AT THE BOTTOM OF THE PAGE*/
+
+/*FIXED NOTE AT THE BOTTOM OF THE PAG
 .contact {
   font-family: "Glory", sans-serif;
   color: var(--yellow);
@@ -425,7 +426,6 @@ footer a:hover {
   text-decoration: underline;
   font-size: 120%;
 }
-
 a .selected {
   color: var(--light_red);
   background-color: var(--yellow);
@@ -434,22 +434,19 @@ a .selected {
   -moz-box-shadow: -4px 2px 11px -1px rgba(0, 0, 0, 0.26) inset;
   transition: 0.2s;
 }
-
 main a {
   color: var(--light_red);
 }
-
 main a:hover {
   color: var(--dark_blue);
 }
-
 hr {
   border: 0.5px solid #3a4454;
   opacity: 20%;
   width: 400px;
   margin: 10px auto;
 }
-/* background */
+  margin: 10px a
 .baggrundtexture_container {
   position: absolute;
   display: flex;
@@ -459,7 +456,6 @@ hr {
   top: 56%;
   left: 63%;
 }
-
 .baggrundtexture {
   background-image: url(/Images/hvid_drage_half.webp);
   background-size: cover;
@@ -467,14 +463,12 @@ hr {
   width: 37%;
   height: auto;
 }
-
 .video {
   width: 100%;
   aspect-ratio: 16/9;
   border-radius: 8px;
   margin-bottom: 2rem;
 }
-
 .forsidevideo {
   width: 100%;
   aspect-ratio: 16/9;
