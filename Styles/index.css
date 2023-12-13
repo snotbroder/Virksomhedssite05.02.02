@@ -23,7 +23,7 @@ video {
   position: absolute;
   top: 0;
   left: 0;
-  background-image: url(../images/frontdragongrill.webp);
+  background-image: url(../Images/frontdragongrill.webp);
   background-size: cover;
   overflow: hidden;
 }
@@ -35,7 +35,7 @@ video {
   position: absolute;
 }
 #menuhover {
-  background-image: url(../images/menuhover.webp);
+  background-image: url(../Images/menuhover.webp);
   background-size: cover;
   position: relative;
   width: 100%;
@@ -54,7 +54,7 @@ video {
 
 #cateringhover {
   transition: all 0.3s ease-in-out;
-  background-image: url(../images/cateringhover.webp);
+  background-image: url(../Images/cateringhover.webp);
   background-size: cover;
   position: relative;
   width: 100%;
